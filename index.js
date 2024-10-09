@@ -1,3 +1,4 @@
+//Completed by Ibrahim AlIbrahim & Abdulrahman Alfahad
 const cities = [
   {
     id: 301,
@@ -141,7 +142,7 @@ function countCitiesInCountry(cities, country) {
     }
   });
 
-  const counter = cityFiltered.reduce((acc, element) => {
+  const counter = cityFiltered.reduce((acc) => {
     acc++;
     return acc;
   }, 0);
